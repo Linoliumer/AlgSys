@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\NaturalNumbers">
+      <UniqueIdentifier>{b44f691e-f068-4728-b569-0e1e7201b2f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\NaturalNumbers">
+      <UniqueIdentifier>{a3f4a131-b11a-4079-9597-7913f378ed0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\IntegerNumbers">
+      <UniqueIdentifier>{aca55a58-a8c2-49c5-a0fb-ae01809fe0bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\IntegerNumbers">
+      <UniqueIdentifier>{4f0135bd-bf84-4e16-a06e-c07dbf489bfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\RatioNumbers">
+      <UniqueIdentifier>{daacfd8e-41b7-4199-a500-19518d94baa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\RatioNumbers">
+      <UniqueIdentifier>{4b4ae5f5-04e1-477b-bbc1-738091cf4abf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Polinoms">
+      <UniqueIdentifier>{04a8ac50-360d-4ac9-bf27-e32003558528}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Polinoms">
+      <UniqueIdentifier>{efcbdc49-fdb4-4c00-99b5-2895aa233fc5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="NaturalNumbers\ADD_1N_N.cpp">
+      <Filter>Исходные файлы\NaturalNumbers</Filter>
+    </ClCompile>
+    <ClCompile Include="NaturalNumbers\ADD_NN_N.cpp">
+      <Filter>Исходные файлы\NaturalNumbers</Filter>
+    </ClCompile>
+    <ClCompile Include="NaturalNumbers\COM_NN_D.cpp">
+      <Filter>Исходные файлы\NaturalNumbers</Filter>
+    </ClCompile>
+    <ClCompile Include="NaturalNumbers\DIV_NN_Dk.cpp">
+      <Filter>Исходные файлы\NaturalNumbers</Filter>
+    </ClCompile>
+    <ClCompile Include="NaturalNumbers\DIV_NN_N.cpp">
+      <Filter>Исходные файлы\NaturalNumbers</Filter>
+    </ClCompile>
+    <ClCompile Include="NaturalNumbers\GCF_NN_N.cpp">
+      <Filter>Исходные файлы\NaturalNumbers</Filter>
+    </ClCompile>
+    <ClCompile Include="NaturalNumbers\generalNatNum.cpp">
+      <Filter>Исходные файлы\NaturalNumbers</Filter>
+    </ClCompile>
+    <ClCompile Include="NaturalNumbers\LCM_NN_N.cpp">
+      <Filter>Исходные файлы\NaturalNumbers</Filter>
+    </ClCompile>
+    <ClCompile Include="NaturalNumbers\MOD_NN_N.cpp">
+      <Filter>Исходные файлы\NaturalNumbers</Filter>
+    </ClCompile>
+    <ClCompile Include="NaturalNumbers\MUL_ND_N.cpp">
+      <Filter>Исходные файлы\NaturalNumbers</Filter>
+    </ClCompile>
+    <ClCompile Include="NaturalNumbers\MUL_Nk_N.cpp">
+      <Filter>Исходные файлы\NaturalNumbers</Filter>
+    </ClCompile>
+    <ClCompile Include="NaturalNumbers\MUL_NN_N.cpp">
+      <Filter>Исходные файлы\NaturalNumbers</Filter>
+    </ClCompile>
+    <ClCompile Include="NaturalNumbers\NZER_N_B.cpp">
+      <Filter>Исходные файлы\NaturalNumbers</Filter>
+    </ClCompile>
+    <ClCompile Include="NaturalNumbers\SUB_NDN_N.cpp">
+      <Filter>Исходные файлы\NaturalNumbers</Filter>
+    </ClCompile>
+    <ClCompile Include="NaturalNumbers\SUB_NN_N.cpp">
+      <Filter>Исходные файлы\NaturalNumbers</Filter>
+    </ClCompile>
+    <ClCompile Include="IntegerNumbers\ABS_Z_N.cpp">
+      <Filter>Исходные файлы\IntegerNumbers</Filter>
+    </ClCompile>
+    <ClCompile Include="IntegerNumbers\ADD_ZZ_Z.cpp">
+      <Filter>Исходные файлы\IntegerNumbers</Filter>
+    </ClCompile>
+    <ClCompile Include="IntegerNumbers\DIV_ZZ_Z.cpp">
+      <Filter>Исходные файлы\IntegerNumbers</Filter>
+    </ClCompile>
+    <ClCompile Include="IntegerNumbers\generalZNum.cpp">
+      <Filter>Исходные файлы\IntegerNumbers</Filter>
+    </ClCompile>
+    <ClCompile Include="IntegerNumbers\MOD_ZZ_Z.cpp">
+      <Filter>Исходные файлы\IntegerNumbers</Filter>
+    </ClCompile>
+    <ClCompile Include="IntegerNumbers\MUL_ZM_Z.cpp">
+      <Filter>Исходные файлы\IntegerNumbers</Filter>
+    </ClCompile>
+    <ClCompile Include="IntegerNumbers\MUL_ZZ_Z.cpp">
+      <Filter>Исходные файлы\IntegerNumbers</Filter>
+    </ClCompile>
+    <ClCompile Include="IntegerNumbers\POZ_Z_D.cpp">
+      <Filter>Исходные файлы\IntegerNumbers</Filter>
+    </ClCompile>
+    <ClCompile Include="IntegerNumbers\SUB_ZZ_Z.cpp">
+      <Filter>Исходные файлы\IntegerNumbers</Filter>
+    </ClCompile>
+    <ClCompile Include="IntegerNumbers\TRANS_N_Z.cpp">
+      <Filter>Исходные файлы\IntegerNumbers</Filter>
+    </ClCompile>
+    <ClCompile Include="IntegerNumbers\TRANS_Z_N.cpp">
+      <Filter>Исходные файлы\IntegerNumbers</Filter>
+    </ClCompile>
+    <ClCompile Include="RatioNumbers\ADD_QQ_Q.cpp">
+      <Filter>Исходные файлы\RatioNumbers</Filter>
+    </ClCompile>
+    <ClCompile Include="RatioNumbers\DIV_QQ_Q.cpp">
+      <Filter>Исходные файлы\RatioNumbers</Filter>
+    </ClCompile>
+    <ClCompile Include="RatioNumbers\generalRatioNumber.cpp">
+      <Filter>Исходные файлы\RatioNumbers</Filter>
+    </ClCompile>
+    <ClCompile Include="RatioNumbers\INT_Q_B.cpp">
+      <Filter>Исходные файлы\RatioNumbers</Filter>
+    </ClCompile>
+    <ClCompile Include="RatioNumbers\MUL_QQ_Q.cpp">
+      <Filter>Исходные файлы\RatioNumbers</Filter>
+    </ClCompile>
+    <ClCompile Include="RatioNumbers\RED_Q_Q.cpp">
+      <Filter>Исходные файлы\RatioNumbers</Filter>
+    </ClCompile>
+    <ClCompile Include="RatioNumbers\SUB_QQ_Q.cpp">
+      <Filter>Исходные файлы\RatioNumbers</Filter>
+    </ClCompile>
+    <ClCompile Include="RatioNumbers\TRANS_Q_Z.cpp">
+      <Filter>Исходные файлы\RatioNumbers</Filter>
+    </ClCompile>
+    <ClCompile Include="RatioNumbers\TRANS_Z_Q.cpp">
+      <Filter>Исходные файлы\RatioNumbers</Filter>
+    </ClCompile>
+    <ClCompile Include="Polinoms\ADD_PP_P.cpp">
+      <Filter>Исходные файлы\Polinoms</Filter>
+    </ClCompile>
+    <ClCompile Include="Polinoms\DEG_P_N.cpp">
+      <Filter>Исходные файлы\Polinoms</Filter>
+    </ClCompile>
+    <ClCompile Include="Polinoms\DER_P_P.cpp">
+      <Filter>Исходные файлы\Polinoms</Filter>
+    </ClCompile>
+    <ClCompile Include="Polinoms\DIV_PP_P.cpp">
+      <Filter>Исходные файлы\Polinoms</Filter>
+    </ClCompile>
+    <ClCompile Include="Polinoms\FAC_P_Q.cpp">
+      <Filter>Исходные файлы\Polinoms</Filter>
+    </ClCompile>
+    <ClCompile Include="Polinoms\GCF_PP_P.cpp">
+      <Filter>Исходные файлы\Polinoms</Filter>
+    </ClCompile>
+    <ClCompile Include="Polinoms\generalPolinoms.cpp">
+      <Filter>Исходные файлы\Polinoms</Filter>
+    </ClCompile>
+    <ClCompile Include="Polinoms\LED_P_Q.cpp">
+      <Filter>Исходные файлы\Polinoms</Filter>
+    </ClCompile>
+    <ClCompile Include="Polinoms\MOD_PP_P.cpp">
+      <Filter>Исходные файлы\Polinoms</Filter>
+    </ClCompile>
+    <ClCompile Include="Polinoms\MUL_PP_P.cpp">
+      <Filter>Исходные файлы\Polinoms</Filter>
+    </ClCompile>
+    <ClCompile Include="Polinoms\MUL_PQ_P.cpp">
+      <Filter>Исходные файлы\Polinoms</Filter>
+    </ClCompile>
+    <ClCompile Include="Polinoms\MUL_Pxk_P.cpp">
+      <Filter>Исходные файлы\Polinoms</Filter>
+    </ClCompile>
+    <ClCompile Include="Polinoms\NMR_P_P.cpp">
+      <Filter>Исходные файлы\Polinoms</Filter>
+    </ClCompile>
+    <ClCompile Include="Polinoms\SUB_PP_P.cpp">
+      <Filter>Исходные файлы\Polinoms</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="NaturalNumbers\ADD_1N_N.h">
+      <Filter>Файлы заголовков\NaturalNumbers</Filter>
+    </ClInclude>
+    <ClInclude Include="NaturalNumbers\ADD_NN_N.h">
+      <Filter>Файлы заголовков\NaturalNumbers</Filter>
+    </ClInclude>
+    <ClInclude Include="NaturalNumbers\COM_NN_D.h">
+      <Filter>Файлы заголовков\NaturalNumbers</Filter>
+    </ClInclude>
+    <ClInclude Include="NaturalNumbers\DIV_NN_Dk.h">
+      <Filter>Файлы заголовков\NaturalNumbers</Filter>
+    </ClInclude>
+    <ClInclude Include="NaturalNumbers\DIV_NN_N.h">
+      <Filter>Файлы заголовков\NaturalNumbers</Filter>
+    </ClInclude>
+    <ClInclude Include="NaturalNumbers\GCF_NN_N.h">
+      <Filter>Файлы заголовков\NaturalNumbers</Filter>
+    </ClInclude>
+    <ClInclude Include="NaturalNumbers\generalNatNum.h">
+      <Filter>Файлы заголовков\NaturalNumbers</Filter>
+    </ClInclude>
+    <ClInclude Include="NaturalNumbers\LCM_NN_N.h">
+      <Filter>Файлы заголовков\NaturalNumbers</Filter>
+    </ClInclude>
+    <ClInclude Include="NaturalNumbers\MOD_NN_N.h">
+      <Filter>Файлы заголовков\NaturalNumbers</Filter>
+    </ClInclude>
+    <ClInclude Include="NaturalNumbers\MUL_ND_N.h">
+      <Filter>Файлы заголовков\NaturalNumbers</Filter>
+    </ClInclude>
+    <ClInclude Include="NaturalNumbers\MUL_Nk_N.h">
+      <Filter>Файлы заголовков\NaturalNumbers</Filter>
+    </ClInclude>
+    <ClInclude Include="NaturalNumbers\MUL_NN_N.h">
+      <Filter>Файлы заголовков\NaturalNumbers</Filter>
+    </ClInclude>
+    <ClInclude Include="NaturalNumbers\NZER_N_B.h">
+      <Filter>Файлы заголовков\NaturalNumbers</Filter>
+    </ClInclude>
+    <ClInclude Include="NaturalNumbers\SUB_NDN_N.h">
+      <Filter>Файлы заголовков\NaturalNumbers</Filter>
+    </ClInclude>
+    <ClInclude Include="NaturalNumbers\SUB_NN_N.h">
+      <Filter>Файлы заголовков\NaturalNumbers</Filter>
+    </ClInclude>
+    <ClInclude Include="IntegerNumbers\ABS_Z_N.h">
+      <Filter>Файлы заголовков\IntegerNumbers</Filter>
+    </ClInclude>
+    <ClInclude Include="IntegerNumbers\ADD_ZZ_Z.h">
+      <Filter>Файлы заголовков\IntegerNumbers</Filter>
+    </ClInclude>
+    <ClInclude Include="IntegerNumbers\DIV_ZZ_Z.h">
+      <Filter>Файлы заголовков\IntegerNumbers</Filter>
+    </ClInclude>
+    <ClInclude Include="IntegerNumbers\generalZNum.h">
+      <Filter>Файлы заголовков\IntegerNumbers</Filter>
+    </ClInclude>
+    <ClInclude Include="IntegerNumbers\MOD_ZZ_Z.h">
+      <Filter>Файлы заголовков\IntegerNumbers</Filter>
+    </ClInclude>
+    <ClInclude Include="IntegerNumbers\MUL_ZM_Z.h">
+      <Filter>Файлы заголовков\IntegerNumbers</Filter>
+    </ClInclude>
+    <ClInclude Include="IntegerNumbers\MUL_ZZ_Z.h">
+      <Filter>Файлы заголовков\IntegerNumbers</Filter>
+    </ClInclude>
+    <ClInclude Include="IntegerNumbers\POZ_Z_D.h">
+      <Filter>Файлы заголовков\IntegerNumbers</Filter>
+    </ClInclude>
+    <ClInclude Include="IntegerNumbers\SUB_ZZ_Z.h">
+      <Filter>Файлы заголовков\IntegerNumbers</Filter>
+    </ClInclude>
+    <ClInclude Include="IntegerNumbers\TRANS_N_Z.h">
+      <Filter>Файлы заголовков\IntegerNumbers</Filter>
+    </ClInclude>
+    <ClInclude Include="IntegerNumbers\TRANS_Z_N.h">
+      <Filter>Файлы заголовков\IntegerNumbers</Filter>
+    </ClInclude>
+    <ClInclude Include="RatioNumbers\ADD_QQ_Q.h">
+      <Filter>Файлы заголовков\RatioNumbers</Filter>
+    </ClInclude>
+    <ClInclude Include="RatioNumbers\DIV_QQ_Q.h">
+      <Filter>Файлы заголовков\RatioNumbers</Filter>
+    </ClInclude>
+    <ClInclude Include="RatioNumbers\generalRatioNumber.h">
+      <Filter>Файлы заголовков\RatioNumbers</Filter>
+    </ClInclude>
+    <ClInclude Include="RatioNumbers\INT_Q_B.h">
+      <Filter>Файлы заголовков\RatioNumbers</Filter>
+    </ClInclude>
+    <ClInclude Include="RatioNumbers\MUL_QQ_Q.h">
+      <Filter>Файлы заголовков\RatioNumbers</Filter>
+    </ClInclude>
+    <ClInclude Include="RatioNumbers\RED_Q_Q.h">
+      <Filter>Файлы заголовков\RatioNumbers</Filter>
+    </ClInclude>
+    <ClInclude Include="RatioNumbers\SUB_QQ_Q.h">
+      <Filter>Файлы заголовков\RatioNumbers</Filter>
+    </ClInclude>
+    <ClInclude Include="RatioNumbers\TRANS_Q_Z.h">
+      <Filter>Файлы заголовков\RatioNumbers</Filter>
+    </ClInclude>
+    <ClInclude Include="RatioNumbers\TRANS_Z_Q.h">
+      <Filter>Файлы заголовков\RatioNumbers</Filter>
+    </ClInclude>
+    <ClInclude Include="Polinoms\ADD_PP_P.h">
+      <Filter>Файлы заголовков\Polinoms</Filter>
+    </ClInclude>
+    <ClInclude Include="Polinoms\DEG_P_N.h">
+      <Filter>Файлы заголовков\Polinoms</Filter>
+    </ClInclude>
+    <ClInclude Include="Polinoms\DER_P_P.h">
+      <Filter>Файлы заголовков\Polinoms</Filter>
+    </ClInclude>
+    <ClInclude Include="Polinoms\DIV_PP_P.h">
+      <Filter>Файлы заголовков\Polinoms</Filter>
+    </ClInclude>
+    <ClInclude Include="Polinoms\FAC_P_Q.h">
+      <Filter>Файлы заголовков\Polinoms</Filter>
+    </ClInclude>
+    <ClInclude Include="Polinoms\GCF_PP_P.h">
+      <Filter>Файлы заголовков\Polinoms</Filter>
+    </ClInclude>
+    <ClInclude Include="Polinoms\generalPolinoms.h">
+      <Filter>Файлы заголовков\Polinoms</Filter>
+    </ClInclude>
+    <ClInclude Include="Polinoms\LED_P_Q.h">
+      <Filter>Файлы заголовков\Polinoms</Filter>
+    </ClInclude>
+    <ClInclude Include="Polinoms\MOD_PP_P.h">
+      <Filter>Файлы заголовков\Polinoms</Filter>
+    </ClInclude>
+    <ClInclude Include="Polinoms\MUL_PP_P.h">
+      <Filter>Файлы заголовков\Polinoms</Filter>
+    </ClInclude>
+    <ClInclude Include="Polinoms\MUL_PQ_P.h">
+      <Filter>Файлы заголовков\Polinoms</Filter>
+    </ClInclude>
+    <ClInclude Include="Polinoms\MUL_Pxk_P.h">
+      <Filter>Файлы заголовков\Polinoms</Filter>
+    </ClInclude>
+    <ClInclude Include="Polinoms\NMR_P_P.h">
+      <Filter>Файлы заголовков\Polinoms</Filter>
+    </ClInclude>
+    <ClInclude Include="Polinoms\SUB_PP_P.h">
+      <Filter>Файлы заголовков\Polinoms</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

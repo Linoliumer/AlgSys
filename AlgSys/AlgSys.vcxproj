@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{c46f9bda-faf2-40d4-a4b5-b168ee83e5fe}</ProjectGuid>
+    <RootNamespace>AlgSys</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="IntegerNumbers\ABS_Z_N.cpp" />
+    <ClCompile Include="IntegerNumbers\ADD_ZZ_Z.cpp" />
+    <ClCompile Include="IntegerNumbers\DIV_ZZ_Z.cpp" />
+    <ClCompile Include="IntegerNumbers\generalZNum.cpp" />
+    <ClCompile Include="IntegerNumbers\MOD_ZZ_Z.cpp" />
+    <ClCompile Include="IntegerNumbers\MUL_ZM_Z.cpp" />
+    <ClCompile Include="IntegerNumbers\MUL_ZZ_Z.cpp" />
+    <ClCompile Include="IntegerNumbers\POZ_Z_D.cpp" />
+    <ClCompile Include="IntegerNumbers\SUB_ZZ_Z.cpp" />
+    <ClCompile Include="IntegerNumbers\TRANS_N_Z.cpp" />
+    <ClCompile Include="IntegerNumbers\TRANS_Z_N.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="NaturalNumbers\ADD_1N_N.cpp" />
+    <ClCompile Include="NaturalNumbers\ADD_NN_N.cpp" />
+    <ClCompile Include="NaturalNumbers\COM_NN_D.cpp" />
+    <ClCompile Include="NaturalNumbers\DIV_NN_Dk.cpp" />
+    <ClCompile Include="NaturalNumbers\DIV_NN_N.cpp" />
+    <ClCompile Include="NaturalNumbers\GCF_NN_N.cpp" />
+    <ClCompile Include="NaturalNumbers\generalNatNum.cpp" />
+    <ClCompile Include="NaturalNumbers\LCM_NN_N.cpp" />
+    <ClCompile Include="NaturalNumbers\MOD_NN_N.cpp" />
+    <ClCompile Include="NaturalNumbers\MUL_ND_N.cpp" />
+    <ClCompile Include="NaturalNumbers\MUL_Nk_N.cpp" />
+    <ClCompile Include="NaturalNumbers\MUL_NN_N.cpp" />
+    <ClCompile Include="NaturalNumbers\NZER_N_B.cpp" />
+    <ClCompile Include="NaturalNumbers\SUB_NDN_N.cpp" />
+    <ClCompile Include="NaturalNumbers\SUB_NN_N.cpp" />
+    <ClCompile Include="Polinoms\ADD_PP_P.cpp" />
+    <ClCompile Include="Polinoms\DEG_P_N.cpp" />
+    <ClCompile Include="Polinoms\DER_P_P.cpp" />
+    <ClCompile Include="Polinoms\DIV_PP_P.cpp" />
+    <ClCompile Include="Polinoms\FAC_P_Q.cpp" />
+    <ClCompile Include="Polinoms\GCF_PP_P.cpp" />
+    <ClCompile Include="Polinoms\generalPolinoms.cpp" />
+    <ClCompile Include="Polinoms\LED_P_Q.cpp" />
+    <ClCompile Include="Polinoms\MOD_PP_P.cpp" />
+    <ClCompile Include="Polinoms\MUL_PP_P.cpp" />
+    <ClCompile Include="Polinoms\MUL_PQ_P.cpp" />
+    <ClCompile Include="Polinoms\MUL_Pxk_P.cpp" />
+    <ClCompile Include="Polinoms\NMR_P_P.cpp" />
+    <ClCompile Include="Polinoms\SUB_PP_P.cpp" />
+    <ClCompile Include="RatioNumbers\ADD_QQ_Q.cpp" />
+    <ClCompile Include="RatioNumbers\DIV_QQ_Q.cpp" />
+    <ClCompile Include="RatioNumbers\generalRatioNumber.cpp" />
+    <ClCompile Include="RatioNumbers\INT_Q_B.cpp" />
+    <ClCompile Include="RatioNumbers\MUL_QQ_Q.cpp" />
+    <ClCompile Include="RatioNumbers\RED_Q_Q.cpp" />
+    <ClCompile Include="RatioNumbers\SUB_QQ_Q.cpp" />
+    <ClCompile Include="RatioNumbers\TRANS_Q_Z.cpp" />
+    <ClCompile Include="RatioNumbers\TRANS_Z_Q.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IntegerNumbers\ABS_Z_N.h" />
+    <ClInclude Include="IntegerNumbers\ADD_ZZ_Z.h" />
+    <ClInclude Include="IntegerNumbers\DIV_ZZ_Z.h" />
+    <ClInclude Include="IntegerNumbers\generalZNum.h" />
+    <ClInclude Include="IntegerNumbers\MOD_ZZ_Z.h" />
+    <ClInclude Include="IntegerNumbers\MUL_ZM_Z.h" />
+    <ClInclude Include="IntegerNumbers\MUL_ZZ_Z.h" />
+    <ClInclude Include="IntegerNumbers\POZ_Z_D.h" />
+    <ClInclude Include="IntegerNumbers\SUB_ZZ_Z.h" />
+    <ClInclude Include="IntegerNumbers\TRANS_N_Z.h" />
+    <ClInclude Include="IntegerNumbers\TRANS_Z_N.h" />
+    <ClInclude Include="NaturalNumbers\ADD_1N_N.h" />
+    <ClInclude Include="NaturalNumbers\ADD_NN_N.h" />
+    <ClInclude Include="NaturalNumbers\COM_NN_D.h" />
+    <ClInclude Include="NaturalNumbers\DIV_NN_Dk.h" />
+    <ClInclude Include="NaturalNumbers\DIV_NN_N.h" />
+    <ClInclude Include="NaturalNumbers\GCF_NN_N.h" />
+    <ClInclude Include="NaturalNumbers\generalNatNum.h" />
+    <ClInclude Include="NaturalNumbers\LCM_NN_N.h" />
+    <ClInclude Include="NaturalNumbers\MOD_NN_N.h" />
+    <ClInclude Include="NaturalNumbers\MUL_ND_N.h" />
+    <ClInclude Include="NaturalNumbers\MUL_Nk_N.h" />
+    <ClInclude Include="NaturalNumbers\MUL_NN_N.h" />
+    <ClInclude Include="NaturalNumbers\NZER_N_B.h" />
+    <ClInclude Include="NaturalNumbers\SUB_NDN_N.h" />
+    <ClInclude Include="NaturalNumbers\SUB_NN_N.h" />
+    <ClInclude Include="Polinoms\ADD_PP_P.h" />
+    <ClInclude Include="Polinoms\DEG_P_N.h" />
+    <ClInclude Include="Polinoms\DER_P_P.h" />
+    <ClInclude Include="Polinoms\DIV_PP_P.h" />
+    <ClInclude Include="Polinoms\FAC_P_Q.h" />
+    <ClInclude Include="Polinoms\GCF_PP_P.h" />
+    <ClInclude Include="Polinoms\generalPolinoms.h" />
+    <ClInclude Include="Polinoms\LED_P_Q.h" />
+    <ClInclude Include="Polinoms\MOD_PP_P.h" />
+    <ClInclude Include="Polinoms\MUL_PP_P.h" />
+    <ClInclude Include="Polinoms\MUL_PQ_P.h" />
+    <ClInclude Include="Polinoms\MUL_Pxk_P.h" />
+    <ClInclude Include="Polinoms\NMR_P_P.h" />
+    <ClInclude Include="Polinoms\SUB_PP_P.h" />
+    <ClInclude Include="RatioNumbers\ADD_QQ_Q.h" />
+    <ClInclude Include="RatioNumbers\DIV_QQ_Q.h" />
+    <ClInclude Include="RatioNumbers\generalRatioNumber.h" />
+    <ClInclude Include="RatioNumbers\INT_Q_B.h" />
+    <ClInclude Include="RatioNumbers\MUL_QQ_Q.h" />
+    <ClInclude Include="RatioNumbers\RED_Q_Q.h" />
+    <ClInclude Include="RatioNumbers\SUB_QQ_Q.h" />
+    <ClInclude Include="RatioNumbers\TRANS_Q_Z.h" />
+    <ClInclude Include="RatioNumbers\TRANS_Z_Q.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
